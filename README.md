@@ -1,6 +1,19 @@
-# Bütçe Hesaplayıcı
+YBS Bütçe ve Döviz Hesaplayıcı
+Türk Lirası ve yabancı para birimleri (USD, EUR, GBP) arasında anlık döviz kurları üzerinden çift yönlü dönüşüm yapmayı sağlayan web uygulaması.
 
-Bu proje, gelir ve giderleri takip etmek için geliştirilmiş basit bir bütçe hesaplama uygulamasıdır.
+Özellikler
+Exchange Rate API kullanarak canlı döviz kuru verisi çekme
+Çift yönlü çeviri (TL -> Döviz veya Döviz -> TL)
+Dinamik sonuç ve kur bilgisi gösterimi
 
-## Nasıl Çalıştırılır?
-Projeyi klonladıktan sonra tarayıcınızda veya ilgili editörde açarak çalıştırabilirsiniz.
+Teknolojiler
+HTML5
+CSS3
+JavaScript (Fetch API, Async/Await)
+
+Kullanım
+proje.html dosyasını tarayıcınızda açın.
+Dönüştürmek istediğiniz miktarı girin.
+Döviz türünü seçin (USD, EUR, GBP).
+Çevrim yönünü değiştirmek için ortadaki butonu (⇌) kullanabilirsiniz.
+"Hesaplamayı Yap" butonuna tıklayarak sonucu görüntüleyin.
