@@ -1,4 +1,4 @@
-let yonTLdenDovize = true; 
+ let yonTLdenDovize = true; 
 
 async function hesapla() {
     const miktarInput = document.getElementById("miktar").value;
