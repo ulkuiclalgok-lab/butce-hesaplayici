@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <title>YBS Bütçe ve Döviz Hesaplayıcı</title>
+</head>
+<body>
+    <div class="container">
+            <div class="panel input-panel">
+                 <h2>Bütçe Planla</h2>
+                 <label>Miktar:</label>
+                 <input type="number" id="miktar" placeholder="Miktarı giriniz..." min="0">
+                <div class="islem-turu">
+                    <span id="kaynakBirim">TRY</span>
+                    <button type="button" class="cevir-btn" onclick="yonDegistir()">⇌</button>
+                    <span id="hedefBirim">USD</span>
+                </div>
+                 <label>Döviz Seçiniz:</label>
+                 <select id="dovizTuru">
+                 <option value="USD">Amerikan doları (USD)</option>
+                 <option value="EUR">Euro (EUR)</option>
+                 <option value="GBP">Sterlin (GBP)</option>
+                </select>
+             <button class="hesapla-btn" onclick="hesapla()">Hesaplamayı Yap</button>
+             </div> 
+             <div id="sonucPaneli" class="panel result-panel">
+                <h3>İşlem Özeti</h3>
+                <div id="sonuc">Sonuç burada görünecek.</div>
+                <small id="kurBilgi"></small>
+             </div>
+
+</body>
+</html>
